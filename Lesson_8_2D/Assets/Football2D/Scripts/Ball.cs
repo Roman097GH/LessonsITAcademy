@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Football2D
+namespace Football2D.Scripts
 {
     public class Ball : MonoBehaviour
     {
@@ -17,6 +17,5 @@ namespace Football2D
         {
             _ballRb.AddForce(distance * _hitForce, ForceMode2D.Impulse);
         }
-
     }
 }
