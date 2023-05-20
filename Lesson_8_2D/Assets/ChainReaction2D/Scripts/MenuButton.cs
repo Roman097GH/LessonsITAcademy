@@ -7,14 +7,21 @@ public class MenuButton : MonoBehaviour
     {
         SceneManager.LoadScene(sceneBuildIndex: 1);
     }
+    
+    public void RestartGameScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 
     public void QuitGame()
     {
         #if UNITY_EDITOR
+        
         UnityEditor.EditorApplication.isPlaying = false;
 
         Application.Quit();
         Debug.Log(nameof(QuitGame));
+        
         #endif
     }
 }

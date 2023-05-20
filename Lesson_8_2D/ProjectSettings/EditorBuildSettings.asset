@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/StartMenu.unity
+    path: Assets/ChainReaction2D/Scenes/StartMenuReaction2D.unity
     guid: 9c43cc65af2be8e449010804b83f1469
   - enabled: 1
-    path: Assets/Football2D/ScenesFootball/Football2DGameScene.unity
-    guid: b595c831a9805eb46a06ea18a3013ce2
+    path: Assets/ChainReaction2D/Scenes/GameSceneReaction2D.unity
+    guid: 088da1a22c22bbd408567ada052e09e4
   m_configObjects: {}
